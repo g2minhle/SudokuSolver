@@ -71,7 +71,7 @@ namespace Sudoku
             fw.Close();
 
             Process process;
-            process = System.Diagnostics.Process.Start("GiaiSudoku.exe");
+            process = System.Diagnostics.Process.Start("CoreSudokuSolver.exe");
             process.WaitForExit();
 
             StreamReader fr = new StreamReader("output.txt");
