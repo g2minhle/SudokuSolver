@@ -5,15 +5,20 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{053873B7-53A8-4DF5-8E9A-1F9268A9EF15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CoreSudokuSolver", "CoreSudokuSolver\CoreSudokuSolver.vcxproj", "{C722D6A4-5FD4-45B8-B4FD-36079D75915D}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs15
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = Sudoku\\Sudoku.csproj
 		SccProjectName1 = Sudoku
 		SccLocalPath1 = Sudoku
+		SccProjectUniqueName2 = CoreSudokuSolver\\CoreSudokuSolver.vcxproj
+		SccProjectName2 = CoreSudokuSolver
+		SccLocalPath2 = CoreSudokuSolver
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +39,16 @@ Global
 		{053873B7-53A8-4DF5-8E9A-1F9268A9EF15}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{053873B7-53A8-4DF5-8E9A-1F9268A9EF15}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{053873B7-53A8-4DF5-8E9A-1F9268A9EF15}.Release|Win32.ActiveCfg = Release|Any CPU
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Debug|Win32.Build.0 = Debug|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Release|Win32.ActiveCfg = Release|Win32
+		{C722D6A4-5FD4-45B8-B4FD-36079D75915D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
